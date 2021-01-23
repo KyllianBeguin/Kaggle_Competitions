@@ -1,4 +1,4 @@
-_Kaggle competition n°1 : Titanic
+_Kaggle competition n°1 : Titanic_
 
 Summary
 - Preview of the competition
