@@ -1,4 +1,4 @@
-_Kaggle competition n°1 : Titanic_
+__Kaggle competition n°1 : Titanic
 
 Summary
 - Preview of the competition
@@ -9,7 +9,7 @@ Summary
 
 
 
-__________Preview of the competition___________
+__Preview of the competition
 
 Link to the competition : https://www.kaggle.com/c/titanic
 
@@ -19,7 +19,7 @@ Evaluation : Your score is the percentage of passengers you correctly predict. T
 
 
 
-__________Variable used_________
+__Variable used
 
 In order to solve this problem, I will use the gender, the age and the embarked variable.
 
@@ -32,7 +32,7 @@ Why ?
 
 
 
-__________Dataset processing pipeline__________
+__Dataset processing pipeline
 
 To delete the fewest lines, the 'Cabin' column had been droped and then the .dropna() function was used on the resulting dataset.
 'Cabin' column has the bigger amount of NAs among all the column in the raw dataset (see Titanic_Overview.ipynb)
@@ -46,7 +46,7 @@ If not, the first column is extracted (should be the passenger ID)
 
 
 
-__________Machine Learning__________
+__Machine Learning
 
 The KNN algorithm was used to solve the problem, out of the output from the pipeline dataset
 KNN stands for 'k-nearest neighbors'. Here, it is used for classification.
@@ -59,7 +59,7 @@ for more information about KNN, please check the Wikipedia web pag at https://en
 
 
 
-__________Conclusion__________
+__Conclusion
 
 This was my first Kaggle competition, I really liked it !
 As I was working at home for my formation, I did not payed any attention to this competition, even if I started it on December 10th (omg, so slow...)
