@@ -3,7 +3,7 @@ __Kaggle competition n°1 : Titanic__
 Summary
 - Preview of the competition
 - Variable used
-- Dataset processing pipline
+- Dataset processing pipeline
 - Machine Learning
 - Conclusion
 
