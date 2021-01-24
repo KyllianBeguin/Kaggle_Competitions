@@ -34,8 +34,10 @@ Why ?
 
 __Dataset processing pipeline__
 
-To delete the fewest lines, the 'Cabin' column had been droped and then the .dropna() function was used on the resulting dataset.
-'Cabin' column has the bigger amount of NAs among all the column in the raw dataset (see Titanic_Overview.ipynb)
+To delete the fewest lines, the 'Cabin' column had been droped.
+'Cabin' column has the bigger amount of NAs among all the column in the raw dataset (see Titanic_Overview.ipynb).
+NAs in 'Age' column were replaces by the average of 'Age'.
+NAs in 'Embarked' column were replace by 'S' as most of the people, in training and testing sets were from Southampton
 
 I then created dummies variables for the 3 entry variable. It makes a 0 and 1 matrix.
 About Age, the variable had been cuted in 5 slices with equal range. Then dummies was created.
